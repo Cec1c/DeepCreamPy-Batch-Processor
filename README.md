@@ -7,6 +7,7 @@
 - 我有一批带黑条的图片，只有少部分可猜测细节被遮挡，我希望能批量修复他们并且不影响原有命名顺序
 - 我解包了一个游戏，找到了其带码的素材，我想批量转换他们但是素材太多了，分不清其文件结构，而且不想破坏原有素材的图层透明性（要指定-t参数，见下文透明背景恢复）
 - 等等场景，作者做来主要是针对游戏解包素材再修复，如有需求可以交个issue我试试
+- 仅适用于二次元图片
 ### 执行中
 ![alt text](cmd.png)
 ### 执行后文件夹结构与透明图层保留
@@ -57,4 +58,5 @@ python main.py -f "C:\download\benzi" -m 2 -t
 [DeepCreamPy](https://github.com/cookieY/DeepCreamPy)
 [hent-AI](https://github.com/natethegreate/hent-AI)
 [deepcreampy-onnx-docker](https://github.com/nanoskript/deepcreampy-onnx-docker)
+
 [deepcreampy-fastapi](https://github.com/fajlkdsjfajdf/deepcreampy-fastapi)
