@@ -14,7 +14,7 @@
 ![alt text](file.png)
 ### 执行效果与模型提供方相关，具体效果请自行测试
 # 安装前置服务
-首先你需要部署一个DeepCreamPy Fastapi服务，本项目基于其提供的api提供批量处理和透明识别，<strong>因此你必须在
+首先你需要部署一个DeepCreamPy Fastapi服务，本项目基于其提供的API来完成图像自动识别涂抹和AI去码，本项目主要实现提供批量处理和透明识别，<strong>因此你必须在
   [这里](https://github.com/fajlkdsjfajdf/deepcreampy-fastapi)
 安装并运行这个服务</strong>，若能打开`http://localhost:8001/docs`则说明服务已经成功运行。
 ## 安装python依赖
@@ -60,4 +60,5 @@ python main.py -f "C:\download\benzi" -m 2 -t
 [deepcreampy-onnx-docker](https://github.com/nanoskript/deepcreampy-onnx-docker)
 
 [deepcreampy-fastapi](https://github.com/fajlkdsjfajdf/deepcreampy-fastapi)
+
 
