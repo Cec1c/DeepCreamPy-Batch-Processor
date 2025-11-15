@@ -1,6 +1,7 @@
 # DeepCreamPy Batch Processor
 
 批量图片去码处理工具，基于[deepcreampy-fastapi](https://github.com/fajlkdsjfajdf/deepcreampy-fastapi)的自动化处理脚本
+(ps:觉得太麻烦太难部署你先别急，我在尝试打包成有GUI的可执行程序，把部署API这一步跳过，但安装时仍然需要自动或手动再次安装模型，因为太大了，目前基本功能已经实现，我在尝试优化窗体界面）
 
 ## 适用场景
 
@@ -60,5 +61,6 @@ python main.py -f "C:\download\benzi" -m 2 -t
 [deepcreampy-onnx-docker](https://github.com/nanoskript/deepcreampy-onnx-docker)
 
 [deepcreampy-fastapi](https://github.com/fajlkdsjfajdf/deepcreampy-fastapi)
+
 
 
